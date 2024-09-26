@@ -1,5 +1,6 @@
 function minDate(dates) {
-  //write you code here
+  // Use the reduce method to find the minimum date by comparing lexicographically
+  return dates.reduce((min, curr) => (curr < min ? curr : min));
 }
 
 // Do not change the code
